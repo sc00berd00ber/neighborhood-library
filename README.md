@@ -13,7 +13,7 @@ this allowed me to print the actual titles of the books instead of their address
 
 ![Screenshot 2025-04-18 132344](https://github.com/user-attachments/assets/d5161796-7c83-4735-8b88-b7d279ef1627)
 
-![Screenshot 2025-04-18 132409](https://github.com/user-attachments/assets/9ef79b4d-20ae-48af-825a-98120dee76a2)
+![Screenshot 2025-04-18 151035](https://github.com/user-attachments/assets/297971df-45e2-4c5f-88d3-146db2c88e17)
 
+![Screenshot 2025-04-18 151058](https://github.com/user-attachments/assets/f801b08c-c341-4613-8599-86c9feed9054)
 
-![Screenshot 2025-04-18 132956](https://github.com/user-attachments/assets/42c62678-f246-4197-b235-0009393d62c0)
