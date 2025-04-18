@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         initializeInventory();
 
+        //infinite loop
         while (true) {
             System.out.println("\n--- Store Home Screen ---");
             System.out.println("1. Show Available Books");
@@ -31,11 +32,17 @@ public class Main {
             }
         }
     }
+        //Book titles
         static String[] bookTitles = {"The Curious Incident of the Dog in the Night-Time", "Do Androids Dream of Electric Sheep?", "A Thousand Splendid Suns", "Brave New World", "Wide Sargasso Sea", "East of Eden", "How to Solve Your Own Murder", "Number the Stars",
                       "Pale Fire", "Romeo and Juliet", "The Night Before Christmas", "The Stars Have Eyes", "A Few Things I Love", "A Guide To Courteous Thievery", "A Many-splendoured Thing", "The Alchemist", "The Da Vinci Code", "The Twilight Saga",
-                      "Gone With the Wind", "Think and Grow Rich"};
+                      "Gone With the Wind", };
+
+    //Populate our objects
     private static void initializeInventory() {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < bookTitles.length; i++) {
+            if (bookTitles[i] == null){
+                continue;
+            }
             inventory[i] = new Book(i + 1, "ISBN" + (1000 + i), bookTitles[i]);
         }
     }
@@ -43,7 +50,7 @@ public class Main {
     private static void showAvailableBooks(Scanner scanner) {
         System.out.println("\nAvailable Books:");
         for (Book book : inventory) {
-            if (!book.getIsCheckedOut()) {
+            if (book != null && !book.getIsCheckedOut()) {
                 System.out.println(book.toString());
             }
         }
