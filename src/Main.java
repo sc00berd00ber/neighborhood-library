@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Main {
     static Book[] inventory = new Book[20];
 
